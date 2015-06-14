@@ -1,0 +1,2 @@
+# meaniechrome
+Malicious chrome extension. Needs Developer mode on. Used the skeleton of Adblocker after I saw they injected js into the page. It'll hijack your browser and (in the case of the demo) point to either a box on the LAN or external web server. It's all still subject to restrictions (most HTTPS sites only allow it over HTTPS, some have whitelists for contents like Facebook, etc). Included remote.js, which would be the remote payload controlled on the external server.
