@@ -17,7 +17,6 @@ function injectScript(file, node) {
 
 
 function run() {
-  injectScript(chrome.extension.getURL('/src/rules.js'), 'body');
   injectScript(chrome.extension.getURL('/src/inject.js'), 'body');
 }
 
